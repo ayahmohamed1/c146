@@ -30,7 +30,7 @@ You deserve to be loved appreciated and celebrated every day
 Thank you for all the happiness comfort and laughter you’ve brought into my life
 Having you by my side is truly one of the most beautiful things in my life and I’m grateful for you every single day
 Throughout all these years you’ve been everything to me and the person I can tell all my secrets to
-Happy birthday once again Mais and keep smiling Maiso`,
+Happy birthday once again Mais and keep smiling meso`,
 };
 
 const giftData: Record<string, GiftData> = {
