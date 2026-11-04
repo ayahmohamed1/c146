@@ -18,8 +18,8 @@ export interface GiftData {
 // CUSTOMER DATA
 // ============================================================
 const defaultGift: GiftData = {
-  name: "Miso",                                     // اسم مستلم الهدية
-  senderName: "your love",                            // التوقيع في آخر الرسالة (اختياري)
+  name: "Meso",                                     // اسم مستلم الهدية
+  senderName: "5/11/2007",                            // التوقيع في آخر الرسالة (اختياري)
   envelopeImage: "/images/envelope-aya.png",          // صورة الظرف
   birthdayImage: "/images/birthday-aya.png",          // صورة الهدية النهائية
   accentColor: "#38bdf8",                             // اللون الأزرق الفاتح المتوافق مع التصميم الجديد

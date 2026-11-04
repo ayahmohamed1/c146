@@ -14,6 +14,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `Happy Birthday ${data.name}! 🎂`,
     description: `A special birthday message for ${data.name}`,
+    openGraph: {
+      title: `Happy Birthday ${data.name}! 🎂`,
+      description: `A special birthday message for ${data.name}`,
+      images: [{ url: '/images/link.jpg', width: 1080, height: 1031, alt: 'Birthday gift' }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Happy Birthday ${data.name}! 🎂`,
+      description: `A special birthday message for ${data.name}`,
+      images: ['/images/link.jpg'],
+    },
   }
 }
 
